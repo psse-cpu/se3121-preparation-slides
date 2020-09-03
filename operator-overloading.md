@@ -53,8 +53,7 @@ f1.add(f2.multiply(f3)) // f1 + f2 * f3
 
 ### Why matrices? (3/7)
 
-* Good matrix libs support parallel computations
-  - using matrices over for-loops: __vectorization__
+* Matrix libs like Numpy do matrix computations in parallel, not in sequence (e.g. for-loops)
 
 ![vectorized 2](images/vectorization-2.png)
 
