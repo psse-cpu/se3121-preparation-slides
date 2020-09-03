@@ -189,7 +189,7 @@ void main() {
 
 ### Languages do it differently (2/2)
 
-* *Python uses [magic methods](https://medium.com/fintechexplained/advanced-python-what-are-magic-methods-d21891cf9a08)
+* Python uses [magic methods](https://medium.com/fintechexplained/advanced-python-what-are-magic-methods-d21891cf9a08)
 
 <pre><code class="hljs python" data-trim data-line-numbers="1-13 | 6-10 | 15-18 | 17-18">
 class Vector:
