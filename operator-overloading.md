@@ -215,7 +215,7 @@ print(v - w) # Vector(0, 1)
 
 ### Fraction class, incomplete
 
-<pre><code class="hljs python" data-trim data-line-numbers="1-7 | 9-12 | 14-23 | 25-26 | 28-29 | 31-38 | 40-50 | 52-53 | 55-60">
+<pre><code class="hljs python" data-trim data-line-numbers="1-7 | 9-12 | 14-23 | 25-26 | 28-29 | 31-38 | 40-50 | 52-53 | 55-59">
 import math
 
 class Fraction:
@@ -275,7 +275,6 @@ print(Fraction(3, 4) + 2)
 print(Fraction(1, 2) + Fraction(3, 10))
 print(Fraction(1, 2) + Fraction(3, 10) * Fraction(5, 2))
 print(4 - 3 * Fraction(7, 10))
-Fraction(1, 2) + Fraction(3, 10) * Fraction(5, 2))
 </code></pre>
 
 <pre style="font-size: 0.5em">
