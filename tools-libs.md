@@ -123,7 +123,8 @@ Out[3]: [&lt;matplotlib.lines.Line2D at 0x7fb706b1e310&gt;]
 
 * it is a data analysis and manipulation tool in Python
 * Let's use the data manipulation part, and load an Excel spreadsheet
-  - CSVs are boring
+  - can also load boring CSVs, JSON, SQL (tables, queries), etc.
+  - backend integration is waving
 
 ![spreadsheet](images/excel.png)
 
