@@ -41,6 +41,11 @@
         background-color: #f4cb3d;
         box-shadow: 0px 4px 8px -2px gray;
       }
+      
+      .MathJax_Display { 
+        margin-top: 0px !important; 
+        margin-bottom: 0px !important;
+      }
     </style>
   </head>
   <body>
@@ -48,6 +53,7 @@
       <div class="slides">
         <section data-markdown="intro.md" data-separator-vertical="\n\n\n"></section>				
         <section data-markdown="operator-overloading.md" data-separator-vertical="\n\n\n"></section>				
+        <section data-markdown="tools-libs.md" data-separator-vertical="\n\n\n"></section>				
         <section data-markdown="outro.md" data-separator-vertical="\n\n\n"></section>
       </div>
     </div>		    
@@ -61,6 +67,7 @@
     <script src="plugin/notes/notes.js"></script>
     <script src="plugin/markdown/markdown.js"></script>
     <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/math/math.js"></script>
     <script>
       // More info about initialization & config:
       // - https://revealjs.com/initialization/
@@ -70,8 +77,12 @@
 
         slideNumber: 'c/t',
 
+        math: {
+          "HTML-CSS": { scale: 60, linebreaks: { automatic: true } }, 
+        },
+
         // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
       });
     </script>
   </body>

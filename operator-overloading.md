@@ -55,7 +55,7 @@ f1.add(f2.multiply(f3)) // f1 + f2 * f3
 
 * Matrix libs like Numpy do matrix computations in parallel, not in sequence (e.g. for-loops)
 
-![vectorized 2](images/vectorization-2.png)
+![vectorized 2](images/vectorization-1.png)
 
 
 
