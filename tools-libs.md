@@ -231,14 +231,14 @@ scatter plot is a common way to visualize data in ML
 
 ### Jupyter Flex (9/10)
 
-![scatter plot](images/html-export.png) <!-- .element style="width: 728px; height: 400px" -->
+![html export](images/export.png) <!-- .element style="width: 728px; height: 400px" -->
 
-Export in HTML and PDF (I can't RN, outdated OS libs)
+Netlify-friendly with HTML export, PDF ain't bad too
 
 
 
 ### Jupyter Flex (10/10)
 
-![scatter plot](images/assemble.png)
+![py assemble](images/assemble.png)
 
 assemble scattered snippets back into a whole .py file
